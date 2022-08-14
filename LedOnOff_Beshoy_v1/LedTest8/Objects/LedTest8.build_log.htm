@@ -1,0 +1,96 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Beshoy Wesa, LegsGo, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  E:\B.programs\my c disk\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.0.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+E:\B.programs\Advanced Embedded System Course\03- Code\LedTest8\LedTest8.uvprojx
+Project File Date:  08/14/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'E:\B.programs\my c disk\ARM\ARMCC\Bin'
+Build target 'Target 1'
+assembling startup_TM4C123.s...
+compiling system_TM4C123.c...
+compiling main.c...
+..\..\04- System\05- Lib\BIT_MATH.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(51): warning:  #111-D: statement is unreachable
+  	return 0;
+main.c(62): warning:  #1-D: last line of file ends without a newline
+  */
+main.c: 3 warnings, 0 errors
+compiling Dio_Program.c...
+..\..\04- System\05- Lib\BIT_MATH.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\04- System\02- Mcal\01- GPIO\Dio_Program.c(207): warning:  #188-D: enumerated type mixed with another type
+  		case DIO_PortA :PinValue = GET_BIT(DIOA->DATA , PinId); break;
+..\..\04- System\02- Mcal\01- GPIO\Dio_Program.c(208): warning:  #188-D: enumerated type mixed with another type
+  		case DIO_PortB :PinValue = GET_BIT(DIOB->DATA , PinId); break;
+..\..\04- System\02- Mcal\01- GPIO\Dio_Program.c(209): warning:  #188-D: enumerated type mixed with another type
+  		case DIO_PortC :PinValue = GET_BIT(DIOC->DATA , PinId); break;
+..\..\04- System\02- Mcal\01- GPIO\Dio_Program.c(210): warning:  #188-D: enumerated type mixed with another type
+  		case DIO_PortD :PinValue = GET_BIT(DIOD->DATA , PinId); break;
+..\..\04- System\02- Mcal\01- GPIO\Dio_Program.c(211): warning:  #188-D: enumerated type mixed with another type
+  		case DIO_PortE :PinValue = GET_BIT(DIOE->DATA , PinId); break;
+..\..\04- System\02- Mcal\01- GPIO\Dio_Program.c(212): warning:  #188-D: enumerated type mixed with another type
+  		case DIO_PortF :PinValue = GET_BIT(DIOF->DATA , PinId); break;
+..\..\04- System\02- Mcal\01- GPIO\Dio_Program.c: 7 warnings, 0 errors
+compiling STK_Program.c...
+..\..\04- System\05- Lib\BIT_MATH.h(22): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\..\04- System\02- Mcal\04- STK\STK_Program.c(146): warning:  #550-D: variable "Local_u8Temporary"  was set but never used
+  	u8 Local_u8Temporary;
+..\..\04- System\02- Mcal\04- STK\STK_Program.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=1612 RO-data=652 RW-data=12 ZI-data=612  
+".\Objects\LedTest8.axf" - 0 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.TM4C_DFP.1.1.0.pack
+                Keil.TM4C_DFP.1.1.0
+                Texas Instruments Tiva C Series Device Support and Examples
+   * Component: Startup Version: 1.0.1
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  E:\B.programs\my c disk\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  E:\B.programs\my c disk\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.1
+      Include file:  Device\Include\TM4C123\TM4C123.h
+      Source file:   Device\Source\system_TM4C123.c
+      Source file:   Device\Source\ARM\startup_TM4C123.s
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

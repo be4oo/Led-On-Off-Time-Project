@@ -1,0 +1,30 @@
+Dependencies for Project 'LedTest8', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\main.c)(0x62F948C5)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I "..\..\04- System\02- Mcal\01- GPIO" -I "..\..\04- System\05- Lib" -I "..\..\04- System\02- Mcal\04- STK"-I.\RTE\_Target_1-I"E:\B.programs\my c disk\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"E:\B.programs\my c disk\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\..\04- System\05- Lib\STD_TYPES.h)(0x5F31AEC9)
+I (..\..\04- System\05- Lib\BIT_MATH.h)(0x62D45965)
+I (..\..\04- System\02- Mcal\01- GPIO\DIO_Int.h)(0x62F94C21)
+I (..\..\04- System\02- Mcal\04- STK\STK_Int.h)(0x62D5DB83)
+F (..\..\04- System\02- Mcal\04- STK\STK_Program.c)(0x62D5DB83)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I "..\..\04- System\02- Mcal\01- GPIO" -I "..\..\04- System\05- Lib" -I "..\..\04- System\02- Mcal\04- STK"-I.\RTE\_Target_1-I"E:\B.programs\my c disk\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"E:\B.programs\my c disk\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\stk_program.o --omf_browse .\objects\stk_program.crf --depend .\objects\stk_program.d)
+I (..\..\04- System\05- Lib\STD_TYPES.h)(0x5F31AEC9)
+I (..\..\04- System\05- Lib\BIT_MATH.h)(0x62D45965)
+I (..\..\04- System\02- Mcal\04- STK\STK_Int.h)(0x62D5DB83)
+I (..\..\04- System\02- Mcal\04- STK\STK_Private.h)(0x62D5BDFA)
+I (..\..\04- System\02- Mcal\04- STK\STK_Config.h)(0x62D5BDFA)
+F (..\..\04- System\02- Mcal\01- GPIO\Dio_Program.c)(0x62F94C02)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I "..\..\04- System\02- Mcal\01- GPIO" -I "..\..\04- System\05- Lib" -I "..\..\04- System\02- Mcal\04- STK"-I.\RTE\_Target_1-I"E:\B.programs\my c disk\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"E:\B.programs\my c disk\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\dio_program.o --omf_browse .\objects\dio_program.crf --depend .\objects\dio_program.d)
+I (..\..\04- System\05- Lib\STD_TYPES.h)(0x5F31AEC9)
+I (..\..\04- System\05- Lib\BIT_MATH.h)(0x62D45965)
+I (..\..\04- System\02- Mcal\01- GPIO\Dio_Int.h)(0x62F94C21)
+I (..\..\04- System\02- Mcal\01- GPIO\Dio_Private.h)(0x62F94835)
+I (..\..\04- System\02- Mcal\01- GPIO\Dio_Config.h)(0x62F94835)
+F (RTE\Device\TM4C123GH6PM\startup_TM4C123.s)(0x51B6E406)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_Target_1-I"E:\B.programs\my c disk\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"E:\B.programs\my c disk\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"--list .\listings\startup_tm4c123.lst --xref -o .\objects\startup_tm4c123.o --depend .\objects\startup_tm4c123.d)
+F (RTE\Device\TM4C123GH6PM\system_TM4C123.c)(0x62F9458D)(--c99 --gnu -c --cpu Cortex-M4.fp.sp -D__EVAL -g -O0 --apcs=interwork --split_sections -I "..\..\04- System\02- Mcal\01- GPIO" -I "..\..\04- System\05- Lib" -I "..\..\04- System\02- Mcal\04- STK"-I.\RTE\_Target_1-I"E:\B.programs\my c disk\ARM\CMSIS\5.9.0\CMSIS\Core\Include"-I"E:\B.programs\my c disk\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123"-D__UVISION_VERSION="529" -D_RTE_ -DTM4C123GH6PM-o .\objects\system_tm4c123.o --omf_browse .\objects\system_tm4c123.crf --depend .\objects\system_tm4c123.d)
+I (E:\B.programs\my c disk\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (E:\B.programs\my c disk\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (E:\B.programs\my c disk\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (E:\B.programs\my c disk\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F9F3E)
+I (E:\B.programs\my c disk\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F9F3E)
+I (E:\B.programs\my c disk\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F9F3E)
+I (E:\B.programs\my c disk\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F9F3E)
+I (E:\B.programs\my c disk\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F9F3E)
+I (E:\B.programs\my c disk\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
